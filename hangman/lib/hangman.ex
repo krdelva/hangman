@@ -3,7 +3,7 @@ defmodule Hangman do
   alias Hangman.Impl.Game  # , as: Game
 
   @type state :: :initializing | :won | :lost | :good_guess | :bad_guess | :already_used
-  @type game :: Game.t
+  @opaque game :: Game.t
   @type tally :: %{
     turns_left: integer,
     game_state: state,
