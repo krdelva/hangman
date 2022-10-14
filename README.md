@@ -1,1 +1,1 @@
-Hangman Game in Elixir.
+Hangman Game in Elixir, by Dave Thomas's course.
